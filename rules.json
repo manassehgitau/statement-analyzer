@@ -1,0 +1,7 @@
+{
+  "Groceries": "SUPERMARKET|GENERAL STORES",
+  "Airtime": "^Bought airtime",
+  "Utilities": "POWER PREPAID|WATER",
+  "Transfers": "^Sent to|^Received from",
+  "Cash": "^Withdrawn at agent|^Deposit at agent"
+}

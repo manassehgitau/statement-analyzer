@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="872" height="554" viewBox="0 0 872 554">
+<rect width="872" height="554" rx="8" fill="#0d1117"/>
+<rect width="872" height="28" rx="8" fill="#21262d"/>
+<rect y="20" width="872" height="8" fill="#21262d"/>
+<circle cx="18" cy="14" r="5" fill="#ff5f56"/><circle cx="36" cy="14" r="5" fill="#ffbd2e"/><circle cx="54" cy="14" r="5" fill="#27c93f"/>
+<text font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="14" xml:space="preserve">
+<tspan x="16" y="58.2" fill="#7ee787">$ python statement_analyzer/cli.py summary statement_sample.csv</tspan>
+<tspan x="16" y="77.2" fill="#f0b45a">warning: statement_sample.csv line 25: skipped row (unrecognised date format: &#x27;2026-13-01 10:00:00&#x27;)</tspan>
+<tspan x="16" y="96.2" fill="#f0b45a">warning: statement_sample.csv line 28: skipped row (invalid amount: &#x27;abc&#x27;)</tspan>
+<tspan x="16" y="115.2" fill="#f0b45a">warning: statement_sample.csv line 69: skipped row (unknown type &#x27;TRANSFER&#x27; (expected IN or OUT))</tspan>
+<tspan x="16" y="134.2" fill="#f0b45a">warning: statement_sample.csv line 76: skipped row (missing &#x27;amount&#x27;)</tspan>
+<tspan x="16" y="153.2" fill="#f0b45a">warning: statement_sample.csv line 102: skipped row (missing &#x27;type&#x27;)</tspan>
+<tspan x="16" y="172.2" fill="#f0b45a">warning: statement_sample.csv line 114: skipped row (invalid amount: &#x27;N/A&#x27;)</tspan>
+<tspan x="16" y="191.2" fill="#f0b45a">warning: statement_sample.csv line 136: skipped row (missing &#x27;amount&#x27;)</tspan>
+<tspan x="16" y="210.2" fill="#f0b45a">warning: statement_sample.csv line 156: skipped row (unrecognised date format: &#x27;31/02/2026&#x27;)</tspan>
+<tspan x="16" y="229.2" fill="#f0b45a">warning: statement_sample.csv line 189: skipped row (invalid amount: &#x27;12O.00&#x27;)</tspan>
+<tspan x="16" y="248.2" fill="#f0b45a">warning: statement_sample.csv: loaded 191 rows, skipped 9</tspan>
+<tspan x="16" y="267.2" fill="#e6edf3">Summary: statement_sample.csv (2026-01-02 to 2026-04-29)</tspan>
+<tspan x="16" y="286.2" fill="#e6edf3">========================================================</tspan>
+<tspan x="16" y="305.2" fill="#e6edf3">Transactions: 191</tspan>
+<tspan x="16" y="324.2" fill="#e6edf3">Money in:          530,100.00</tspan>
+<tspan x="16" y="343.2" fill="#e6edf3">Money out:        -416,703.00</tspan>
+<tspan x="16" y="362.2" fill="#e6edf3">Net:               113,397.00</tspan>
+<tspan x="16" y="381.2" fill="#e6edf3"></tspan>
+<tspan x="16" y="400.2" fill="#e6edf3">Category       Count            Total</tspan>
+<tspan x="16" y="419.2" fill="#e6edf3">-------------  -----  ---------------</tspan>
+<tspan x="16" y="438.2" fill="#e6edf3">Groceries         58      -116,220.00</tspan>
+<tspan x="16" y="457.2" fill="#e6edf3">Utilities         10       -14,330.00</tspan>
+<tspan x="16" y="476.2" fill="#e6edf3">Airtime           18        -4,200.00</tspan>
+<tspan x="16" y="495.2" fill="#e6edf3">Transfers         44        19,820.00</tspan>
+<tspan x="16" y="514.2" fill="#e6edf3">Cash              23        96,730.00</tspan>
+<tspan x="16" y="533.2" fill="#e6edf3">Uncategorised     38       131,597.00</tspan>
+</text></svg>

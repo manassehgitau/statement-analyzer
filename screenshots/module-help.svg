@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="636" height="364" viewBox="0 0 636 364">
+<rect width="636" height="364" rx="8" fill="#0d1117"/>
+<rect width="636" height="28" rx="8" fill="#21262d"/>
+<rect y="20" width="636" height="8" fill="#21262d"/>
+<circle cx="18" cy="14" r="5" fill="#ff5f56"/><circle cx="36" cy="14" r="5" fill="#ffbd2e"/><circle cx="54" cy="14" r="5" fill="#27c93f"/>
+<text font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="14" xml:space="preserve">
+<tspan x="16" y="58.2" fill="#7ee787">$ python -m statement_analyzer --help</tspan>
+<tspan x="16" y="77.2" fill="#e6edf3">usage: python -m statement_analyzer [-h] [--rules PATH] [-q] COMMAND ...</tspan>
+<tspan x="16" y="96.2" fill="#e6edf3"></tspan>
+<tspan x="16" y="115.2" fill="#e6edf3">Analyse a bank statement (CSV or JSON) by spending category.</tspan>
+<tspan x="16" y="134.2" fill="#e6edf3"></tspan>
+<tspan x="16" y="153.2" fill="#e6edf3">positional arguments:</tspan>
+<tspan x="16" y="172.2" fill="#e6edf3">  COMMAND</tspan>
+<tspan x="16" y="191.2" fill="#e6edf3">    summary     totals for the whole statement</tspan>
+<tspan x="16" y="210.2" fill="#e6edf3">    monthly     totals for one month</tspan>
+<tspan x="16" y="229.2" fill="#e6edf3"></tspan>
+<tspan x="16" y="248.2" fill="#e6edf3">options:</tspan>
+<tspan x="16" y="267.2" fill="#e6edf3">  -h, --help    show this help message and exit</tspan>
+<tspan x="16" y="286.2" fill="#e6edf3">  --rules PATH  rules file (default: rules.json in the project folder)</tspan>
+<tspan x="16" y="305.2" fill="#e6edf3">  -q, --quiet   don&#x27;t print warnings about skipped rows</tspan>
+<tspan x="16" y="324.2" fill="#e6edf3"></tspan>
+<tspan x="16" y="343.2" fill="#e6edf3">Categories come from rules.json. Dates are in Nairobi time (EAT, UTC+3).</tspan>
+</text></svg>

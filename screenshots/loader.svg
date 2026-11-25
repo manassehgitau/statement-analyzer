@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="872" height="535" viewBox="0 0 872 535">
+<rect width="872" height="535" rx="8" fill="#0d1117"/>
+<rect width="872" height="28" rx="8" fill="#21262d"/>
+<rect y="20" width="872" height="8" fill="#21262d"/>
+<circle cx="18" cy="14" r="5" fill="#ff5f56"/><circle cx="36" cy="14" r="5" fill="#ffbd2e"/><circle cx="54" cy="14" r="5" fill="#27c93f"/>
+<text font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="14" xml:space="preserve">
+<tspan x="16" y="58.2" fill="#7ee787">$ python statement_analyzer/loader.py statement_sample.csv</tspan>
+<tspan x="16" y="77.2" fill="#f0b45a">warning: statement_sample.csv line 25: skipped row (unrecognised date format: &#x27;2026-13-01 10:00:00&#x27;)</tspan>
+<tspan x="16" y="96.2" fill="#f0b45a">warning: statement_sample.csv line 28: skipped row (invalid amount: &#x27;abc&#x27;)</tspan>
+<tspan x="16" y="115.2" fill="#f0b45a">warning: statement_sample.csv line 69: skipped row (unknown type &#x27;TRANSFER&#x27; (expected IN or OUT))</tspan>
+<tspan x="16" y="134.2" fill="#f0b45a">warning: statement_sample.csv line 76: skipped row (missing &#x27;amount&#x27;)</tspan>
+<tspan x="16" y="153.2" fill="#f0b45a">warning: statement_sample.csv line 102: skipped row (missing &#x27;type&#x27;)</tspan>
+<tspan x="16" y="172.2" fill="#f0b45a">warning: statement_sample.csv line 114: skipped row (invalid amount: &#x27;N/A&#x27;)</tspan>
+<tspan x="16" y="191.2" fill="#f0b45a">warning: statement_sample.csv line 136: skipped row (missing &#x27;amount&#x27;)</tspan>
+<tspan x="16" y="210.2" fill="#f0b45a">warning: statement_sample.csv line 156: skipped row (unrecognised date format: &#x27;31/02/2026&#x27;)</tspan>
+<tspan x="16" y="229.2" fill="#f0b45a">warning: statement_sample.csv line 189: skipped row (invalid amount: &#x27;12O.00&#x27;)</tspan>
+<tspan x="16" y="248.2" fill="#f0b45a">warning: statement_sample.csv: loaded 191 rows, skipped 9</tspan>
+<tspan x="16" y="267.2" fill="#e6edf3">Loaded 191 transactions from statement_sample.csv</tspan>
+<tspan x="16" y="286.2" fill="#e6edf3"></tspan>
+<tspan x="16" y="305.2" fill="#e6edf3">Date (Nairobi)                   Amount  Description</tspan>
+<tspan x="16" y="324.2" fill="#e6edf3">2026-01-02T19:06:00+03:00     -1,240.00  Paid to KAMAU GENERAL STORES</tspan>
+<tspan x="16" y="343.2" fill="#e6edf3">2026-01-03T06:24:00+03:00       -450.00  Paid to METRO WATER</tspan>
+<tspan x="16" y="362.2" fill="#e6edf3">2026-01-03T14:02:54+03:00     -2,160.00  Sent to GRACE CHEBET</tspan>
+<tspan x="16" y="381.2" fill="#e6edf3">2026-01-04T06:05:36+03:00       -670.00  Paid to LAKESIDE SUPERMARKET</tspan>
+<tspan x="16" y="400.2" fill="#e6edf3">2026-01-04T13:22:01+03:00     -1,370.00  Paid to LAKESIDE SUPERMARKET</tspan>
+<tspan x="16" y="419.2" fill="#e6edf3">2026-01-05T00:00:00+03:00       -260.00  Paid to CITY SHUTTLE SERVICES</tspan>
+<tspan x="16" y="438.2" fill="#e6edf3">2026-01-05T18:24:46+03:00     -3,580.00  Paid to LAKESIDE SUPERMARKET</tspan>
+<tspan x="16" y="457.2" fill="#e6edf3">2026-01-05T20:47:44+03:00        -50.00  Bought airtime for 0727766086</tspan>
+<tspan x="16" y="476.2" fill="#e6edf3">2026-01-05T21:00:10+03:00      5,320.00  Deposit at agent 597667</tspan>
+<tspan x="16" y="495.2" fill="#e6edf3">2026-01-06T15:43:27+03:00       -120.00  Bought airtime for 0786037869</tspan>
+<tspan x="16" y="514.2" fill="#e6edf3">... and 181 more</tspan>
+</text></svg>
